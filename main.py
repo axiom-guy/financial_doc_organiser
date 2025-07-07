@@ -94,8 +94,8 @@ def main():
     yes_no = input("Do you want to query the model using a file? (y/n): ")
     while(yes_no=='y' or yes_no=='Y'):
         path_f=input("""Enter the abs path of the document.
-        (Note:In case you have organised your directory, enter the new path)
-        Path: """)
+(Note:In case you have organised your directory, enter the new path)
+Path: """)
         text=read_file(path_f)
         ans=question(path,text,llm)
         print(f"Answer: {ans}")

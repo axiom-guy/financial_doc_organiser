@@ -37,7 +37,8 @@ def generate_name_text_local(path,text,bar,llm):
     - Do NOT add any additional explanation.
 
     Text:{text}
-    Suggested filename:
+    Just output the filename, no need for other information.
+    Filename:
     """
     completion_filename=llm.create_chat_completion(
         messages=[
@@ -49,6 +50,7 @@ def generate_name_text_local(path,text,bar,llm):
     )
     filename=completion_filename['choices'][0]['message']['content'].strip()
     filename = re.sub(r'^Filename:\s*', '', filename, flags=re.IGNORECASE).strip()
+    print(filename)
     bar()
     if not filename:
         filename='Untitled'

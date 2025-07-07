@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+import re
 def q_a(path,text,ques,llm):
     prompt=f"""You are a smart financial assistant.
 
@@ -28,12 +28,8 @@ def q_a(path,text,ques,llm):
         ],
     )
     ans=completion['choices'][0]['message']['content'].strip()
-    ans = re.sub(r'^Filename:\s*', '', filename, flags=re.IGNORECASE).strip()
-    return (path,ques,ans)
-
-
-# In[2]:
-
+    ans = re.sub(r'^Answer:\s*', '', ans, flags=re.IGNORECASE).strip()
+    return ans
 
 def question(path,text,llm):
     ques=input("your question?: ")
