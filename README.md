@@ -55,11 +55,11 @@ python main.py
 Enter the absolute path of the directory containing your financial files.
 
 ### 🗂️ Step 3: Organize Files
-You'll be prompted:
--To choose whether to organize
--To provide an output path (optional)
--Preview the proposed structure
--Confirm and organize
+You'll be prompted:<br>
+-To choose whether to organize<br>
+-To provide an output path (optional)<br>
+-Preview the proposed structure<br>
+-Confirm and organize<br>
 
 ### 💬 Step 4: Ask Questions
 Ask natural language questions about any document, such as:
