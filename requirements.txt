@@ -1,0 +1,7 @@
+pandas
+python-docx
+python-pptx
+pdfplumber
+pytesseract
+alive-progress
+llama-cpp-python
