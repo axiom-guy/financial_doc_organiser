@@ -37,8 +37,8 @@ source financial_org/bin/activate
 ```
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/axiom-guy/File-Organizer.git
-cd File-Organizer
+git clone https://github.com/axiom-guy/financial_doc_organiser.git
+cd financial_doc_organiser
 ```
 ### 3. Installing dependencies
 ```bash
