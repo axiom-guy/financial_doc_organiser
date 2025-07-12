@@ -1,7 +1,8 @@
 pandas
 python-docx
 python-pptx
-pdfplumber==0.11.6
+pdfplumber==0.10.3
 pytesseract
 alive-progress
 llama-cpp-python
+huggingface-hub
