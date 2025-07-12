@@ -29,21 +29,23 @@ project/
 
 ## 🚀 Getting Started
 
-### 1. Creating and activating virtual environment
+### 1. Clone the Repository
+```bash
+git clone https://github.com/axiom-guy/financial_doc_organiser.git
+cd financial_doc_organiser
+```
+### 2. Creating and activating virtual environment
 ```bash
 #create and activate a virtual environment
 python -m venv financial_org
 source financial_org/bin/activate
 ```
-### 2. Clone the Repository
-```bash
-git clone https://github.com/axiom-guy/financial_doc_organiser.git
-cd financial_doc_organiser
-```
+Make sure to upgrade your pip to latest version.
 ### 3. Installing dependencies
 ```bash
 pip install -r requirements.txt
 ```
+If facing issue while using llama-cpp-python, kindly check its [documentation](https://github.com/abetlen/llama-cpp-python.git).
 
 ## 🧪 How to Use
 

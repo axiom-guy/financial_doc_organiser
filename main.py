@@ -26,7 +26,7 @@ from llama_cpp import Llama
 # ------------------------
 # Load models with clean logging
 # ------------------------
-@suppress_stderr
+
 def load_llm_text():
     return Llama.from_pretrained(
         repo_id="MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
